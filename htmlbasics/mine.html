@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="/htmlbasics/static/images/2.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vixon</title>
+    <style>
+        body{
+            background-color: rgb(177, 173, 173);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 70px;
+            display: flex;
+            flex-direction: column;
+
+        }
+        h1{
+            color: blue;
+            font-size: 60px;
+        }
+        form{
+            width: 500px;
+            background-color: white;
+            margin: auto;
+            border-radius: 8px;
+            border: 8px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 10px, 4px rgba(0,0,0,0.1);
+
+        }
+        input{
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            border: 646;
+            width: 90%;
+            }
+        button{
+            border: none;
+            padding: 10px;
+            background-color: blue;
+            width: 90%;
+            margin-top: 10px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            cursor: pointer;
+            color: white;
+        }   
+        button:hover{
+            background-color: rgb(108, 108, 207);
+        } 
+        div{
+            display: flex;
+            flex-direction: row;
+            width: 30%;
+        }
+        .create-btn{
+            background-color: green;
+            color: white;
+            border-radius: 10px;
+            padding: 10px;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            margin-top: 60px;
+
+        }
+        .create-btn:hover{
+            background-color: black;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <h1>Vixon</h1>
+    <p>Connect with your loved ones.</p>
+    <form action="login/" method="post">
+        <input type="email" name="email" id="email" required placeholder="Email">
+        <input type="password" id="password" name="password" required placeholder="Password">
+        <div><input type="checkbox" id="remember" name="remember">
+        <label for="remember">Remember me</label></div>
+        
+        <button type="submit">Log in</button>
+     
+    </form>
+     <hr width="100%">
+    <a href="createaccount.html" target="_blank"><button class="create-btn">Create account</button></a>
+    <a href="forgotpassword.html">Forgot password?</a>
+</body>
+</html>

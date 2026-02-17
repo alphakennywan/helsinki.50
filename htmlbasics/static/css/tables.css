@@ -1,0 +1,19 @@
+table{
+    width: 80%;
+    border-collapse: collapse;
+
+}
+th ,td{
+    border: 2px solid blue;
+    padding: 15px;
+}
+th{
+    text-align: center;
+    background-color: blue;
+}
+td{
+    text-align: center;
+}
+body{
+    color: black;
+}
